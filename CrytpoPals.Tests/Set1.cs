@@ -15,5 +15,17 @@ namespace CrytpoPals.Tests
 
             Assert.Equal(expectedBase64, base64);
         }
+
+        [Fact]
+        public void Challenge2()
+        {
+            var hex1 = "1c0111001f010100061a024b53535009181c";
+            var hex2 = "686974207468652062756c6c277320657965";
+            var expectedXor = "746865206b696420646f6e277420706c6179";
+
+            var xor = Logic.Xor(hex1, hex2);
+
+            Assert.Equal(expectedXor, xor);
+        }
     }
 }
