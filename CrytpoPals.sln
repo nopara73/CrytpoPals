@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrytpoPals", "CrytpoPals\CrytpoPals.csproj", "{2A4E3117-C27B-47B4-AD58-E6C8060CB243}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrytpoPals.Tests", "CrytpoPals.Tests\CrytpoPals.Tests.csproj", "{F95921E0-371A-4461-B319-4F96D8179D82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A4E3117-C27B-47B4-AD58-E6C8060CB243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4E3117-C27B-47B4-AD58-E6C8060CB243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4E3117-C27B-47B4-AD58-E6C8060CB243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4E3117-C27B-47B4-AD58-E6C8060CB243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F95921E0-371A-4461-B319-4F96D8179D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F95921E0-371A-4461-B319-4F96D8179D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F95921E0-371A-4461-B319-4F96D8179D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F95921E0-371A-4461-B319-4F96D8179D82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF823668-0C07-4121-89D8-6A62D336FFCC}
+	EndGlobalSection
+EndGlobal
